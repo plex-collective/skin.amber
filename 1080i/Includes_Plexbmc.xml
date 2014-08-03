@@ -29,105 +29,105 @@
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.1.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
 			<thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.1.Thumb)]</thumb>
-            
+
           </item>
           <item id="2" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.2.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.2.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.2.Thumb)]</thumb>
-            
+
           </item>
           <item id="3" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.3.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.3.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.3.Thumb)]</thumb>
-            
+
           </item>
           <item id="4" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.4.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.4.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.4.Thumb)]</thumb>
-            
+
           </item>
           <item id="5" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.5.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.5.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.5.Thumb)]</thumb>
-            
+
           </item>
           <item id="6" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.6.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.6.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.6.Thumb)]</thumb>
-            
+
           </item>
           <item id="7" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.7.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.7.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.7.Thumb)]</thumb>
-            
+
           </item>
           <item id="8" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.8.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.8.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.8.Thumb)]</thumb>
-            
+
           </item>
           <item id="9" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.9.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.9.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.9.Thumb)]</thumb>
-            
+
           </item>
           <item id="10" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.10.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.10.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.10.Thumb)]</thumb>
-            
+
           </item>
 		  <item id="11" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.11.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.11.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.11.Thumb)]</thumb>
-            
+
           </item>
           <item id="12" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.12.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.12.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.12.Thumb)]</thumb>
-            
+
           </item>
           <item id="13" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.13.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.13.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.13.Thumb)]</thumb>
-            
+
           </item>
           <item id="14" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.14.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.14.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.14.Thumb)]</thumb>
-            
+
           </item>
           <item id="15" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.15.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.LatestPhoto.15.Title)]</label>
             <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
             <thumb>$INFO[Window.Property(Plexbmc.LatestPhoto.15.Thumb)]</thumb>
-            
+
           </item>
         </content>
 		<!--<content>
@@ -203,7 +203,7 @@
             <label>$INFO[Window.Property(Plexbmc.Queue.5.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.5.Year), • ]$INFO[Window.Property(Plexbmc.Queue.5.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.5.Thumb)]</thumb>
- 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.5.Path)])</onclick>           
+ 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.5.Path)])</onclick>
           </item>
           <item id="6" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.6.Path))</visible>
@@ -224,49 +224,49 @@
             <label>$INFO[Window.Property(Plexbmc.Queue.8.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.8.Year), • ]$INFO[Window.Property(Plexbmc.Queue.8.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.8.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.8.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.8.Path)])</onclick>
           </item>
           <item id="9" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.9.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.9.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.9.Year), • ]$INFO[Window.Property(Plexbmc.Queue.9.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.9.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.9.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.9.Path)])</onclick>
           </item>
           <item id="10" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.10.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.10.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.10.Year), • ]$INFO[Window.Property(Plexbmc.Queue.10.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.10.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.10.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.10.Path)])</onclick>
           </item>
 		  <item id="11" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.11.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.11.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.11.Year), • ]$INFO[Window.Property(Plexbmc.Queue.11.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.11.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.11.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.11.Path)])</onclick>
           </item>
           <item id="12" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.12.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.12.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.12.Year), • ]$INFO[Window.Property(Plexbmc.Queue.12.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.12.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.12.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.12.Path)])</onclick>
           </item>
           <item id="13" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.13.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.13.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.13.Year), • ]$INFO[Window.Property(Plexbmc.Queue.13.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.13.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.13.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.13.Path)])</onclick>
           </item>
           <item id="14" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.14.Path))</visible>
             <label>$INFO[Window.Property(Plexbmc.Queue.14.Title)]</label>
 			<label2>$INFO[Window.Property(Plexbmc.Queue.14.Year), • ]$INFO[Window.Property(Plexbmc.Queue.14.Duration), • , $LOCALIZE[31297]]</label2>
             <thumb>$INFO[Window.Property(Plexbmc.Queue.14.Thumb)]</thumb>
-			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.14.Path)])</onclick>            
+			<onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.14.Path)])</onclick>
           </item>
           <item id="15" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.15.Path))</visible>
@@ -288,7 +288,7 @@
         <include>RecentlyAdded_Label</include>
         <label>$INFO[Container(311).ListItem.Label]</label>
       </control>
-	  
+
       <control type="fixedlist" id="311" description="Movies PLEXBMC">
         <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestMovie.1.Path))</visible>
         <visible>StringCompare(Container(300).ListItem.Property(type),movie)</visible>
@@ -857,7 +857,7 @@
         <label>$INFO[Container(312).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="312" description="Movies PLEXBMC">
-        <visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckMovie.1.Path))</visible>
+        <!--visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckMovie.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),movie)</visible>
         <onright>312</onright>
         <onup condition="Control.IsVisible(311)">311</onup>
@@ -867,7 +867,18 @@
         <onleft condition="!Skin.HasSetting(VerticalHome)">312</onleft>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>Recommended_Posters</include>
-        <content>
+        <!--
+        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
+        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Property(partialpath)]&reload=true</content>
+        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
+        <content>plugin://plugin.video.plexbmc/library/jason_test</content>
+        <content>plugin://plugin.video.plexbmc/default/jason_test</content>
+        <content target="video">addons://plugin.video.plexbmc/default/jason_test</content>
+        <content>plugin://plugin.video.plexbmc?ondeck=jason_test</content>
+        <content target="VideoLibrary">plugin://plugin.video.plexbmc?ondeck=jason_test</content>
+        -->
+        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
+        <!--content>
           <item id="1" description="Movies">
             <visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckMovie.1.Path))</visible>
             <visible>StringCompare(Container(300).ListItem.Property(uuid),Window(Home).Property(Plexbmc.OnDeckMovie.1.uuid))</visible>
@@ -1268,7 +1279,7 @@
             <property name="ItemType">$LOCALIZE[31014]</property>
             <onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.OnDeckMovie.50.Path)])</onclick>
           </item>
-        </content>
+        </content-->
       </control>
       <control type="label" description="Header">
         <visible>Control.IsVisible(511)</visible>
@@ -3003,17 +3014,20 @@
   </include>
   <include name="Plexbmc.Submenu.Items">
     <item id="51" description="Plexbmc Picture channels">
-      <visible>Container(300).HasFocus(50)</visible>
+      <!--visible>Container(300).HasFocus(50)</visible-->
+      <visible>Container(300).HasFocus + StringCompare(Container(300).ListItem.Label2,channels)</visible>
       <label>$LOCALIZE[1]</label>
       <onclick>ActivateWindow(pictures,"plugin://plugin.video.plexbmc/?url=http://photo&amp;mode=22",return)</onclick>
     </item>
     <item id="52" description="Plexbmc Video channels">
-      <visible>Container(300).HasFocus(50)</visible>
+      <!--visible>Container(300).HasFocus(50)</visible-->
+      <visible>Container(300).HasFocus + StringCompare(Container(300).ListItem.Label2,channels)</visible>
       <label>$LOCALIZE[157]</label>
       <onclick>ActivateWindow(Videos,"plugin://plugin.video.plexbmc/?url=http://video&amp;mode=22",return)</onclick>
     </item>
     <item id="53" description="Plexbmc Music channels">
-      <visible>Container(300).HasFocus(50)</visible>
+      <!--visible>Container(300).HasFocus(50)</visible-->
+      <visible>Container(300).HasFocus + StringCompare(Container(300).ListItem.Label2,channels)</visible>
       <label>$LOCALIZE[2]</label>
       <onclick condition="!Library.HasContent(music)">ActivateWindow(MusicFiles,"plugin://plugin.video.plexbmc/?url=http://music&amp;mode=22",return)</onclick>
       <onclick condition="Library.HasContent(music)">ActivateWindow(MusicLibrary,"plugin://plugin.video.plexbmc/?url=http://music&amp;mode=22",return)</onclick>
@@ -3046,7 +3060,8 @@
     </item>
     <item id="58" description="PleXBMC: search">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>!substring(Container(300).ListItem.Property(type),photo)</visible>
       <label>$LOCALIZE[137]</label>
@@ -3054,7 +3069,8 @@
     </item>
     <item id="59" description="PleXBMC: Recently viewed">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),show) | substring(Container(300).ListItem.Property(type),movie)</visible>
       <label>$LOCALIZE[31011]</label>
@@ -3062,7 +3078,8 @@
     </item>
     <item id="60" description="PleXBMC: unwatched">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),show) | substring(Container(300).ListItem.Property(type),movie)</visible>
       <label>$LOCALIZE[16101]</label>
@@ -3070,7 +3087,8 @@
     </item>
     <item id="61" description="PleXBMC: Recently released">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),movie)</visible>
       <label>$LOCALIZE[31012]</label>
@@ -3078,7 +3096,8 @@
     </item>
     <item id="61" description="PleXBMC: Recently Aired">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),show)</visible>
       <label>$LOCALIZE[31013]</label>
@@ -3086,14 +3105,15 @@
     </item>
     <item id="62" description="PleXBMC: recently added">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <label>$LOCALIZE[31020]</label>
       <onclick>$INFO[Container(300).ListItem.Property(recent)]</onclick>
     </item>
     <item id="63" description="PleXBMC: ondeck">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),show) | substring(Container(300).ListItem.Property(type),movie)</visible>
       <label>$LOCALIZE[31014]</label>
@@ -3101,7 +3121,8 @@
     </item>
     <item id="64" description="PleXBMC: albums">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),artist)</visible>
       <label>$LOCALIZE[132]</label>
@@ -3109,7 +3130,8 @@
     </item>
     <item id="65" description="PleXBMC: by year">
       <visible>System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)</visible>
-      <visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible>
+      <!--visible>Container(300).HasFocus(30) | Container(300).HasFocus(31) | Container(300).HasFocus(32) | Container(300).HasFocus(33) | Container(300).HasFocus(34) | Container(300).HasFocus(35) | Container(300).HasFocus(36) | Container(300).HasFocus(37) | Container(300).HasFocus(38) | Container(300).HasFocus(39) | Container(300).HasFocus(40)</visible-->
+      <visible>Container(300).HasFocus</visible>
       <visible>substring(Container(300).ListItem.Property(shared),false)</visible>
       <visible>substring(Container(300).ListItem.Property(type),photo)</visible>
       <label>$LOCALIZE[345]</label>

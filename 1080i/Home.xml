@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="0">
   <defaultcontrol always="true">300</defaultcontrol>
-  <onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">RunScript(plugin.video.plexbmc,amberskin,nocat)</onload>
+  <!-- XXX: Commented out 1st one -->
+
+  <!--
+  <onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">RunPlugin(plugin://plugin.video.plexbmc?content=sections&append=300)</onload>
+  <onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">Container.Update(plugin://plugin.video.plexbmc?content=sections&append=300)</onload>
+  -->
+
+  <!--onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">RunScript(plugin.video.plexbmc,content=sections,append=300)</onload-->
+  <!--onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">RunScript(plugin.video.plexbmc,amberskin,nocat)</onload-->
   <!--<onload condition="System.HasAddon(plugin.video.plexbmc) + Skin.HasSetting(plexbmc)">RunScript(plugin.video.plexbmc,channelShelf)</onload>-->
   <onload condition="!Skin.HasSetting(Hide.Favourites)">RunScript(script.favourites)</onload>
   <onload condition="!Skin.HasSetting(plexbmc)">SetProperty(SkinWidgets_RandomItems_Update,true)</onload>
@@ -193,7 +201,7 @@
                     <font>ItemCount</font>
                     <aligny>center</aligny>
                     <label>$INFO[Window(Weather).Property(Current.Condition),    ]</label>
-                    
+
                 </control>
             </control>
         </control>
@@ -212,7 +220,7 @@
             <textcolor>Orange</textcolor>
             <font>InfoTitle</font>
             <align>center</align>
-			
+
 		<label>20037</label>
 	  </control>
 	  <control type="textbox" description="Plot">

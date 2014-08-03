@@ -64,7 +64,7 @@
         <posy>21</posy>
         <width>189</width>
         <height>285</height>
-		
+
         <include>PosterThumbBG</include>
       </control>
       <control type="image">
@@ -808,9 +808,27 @@
             <font>MainMenuVerticalFO</font>
           </control>
         </focusedlayout>
+        <content>plugin://plugin.video.plexbmc?content=sections</content>
+        <!--
+        <onclick>ActivateWindow(VideoLibrary,plugin://plugin.video.plexbmc/?url=http://10.0.0.10:32400/library/sections/5,return)</onclick>
         <content>
           <include>Home.Main.Menu.Items</include>
         </content>
+        <content>
+	  <item id="10" description="Settings">
+	    <visible>!Skin.HasSetting(QuitMenu_Show_Settings)</visible>
+	    <label>$LOCALIZE[5]</label>
+	    <thumb fallback="special://skin/backgrounds/Settings.jpg">$INFO[Skin.String(Settings.Background)]</thumb>
+	    <onclick>ActivateWindow(Settings)</onclick>
+	  </item>
+	  <item id="11" description="Quit">
+	    <visible>!Skin.HasSetting(Quit.Hide)</visible>
+	    <label fallback="13009">$VAR[QuitLabel2]</label>
+	    <thumb fallback="special://skin/backgrounds/Quit.jpg">$INFO[Skin.String(Quit.Background)]</thumb>
+	    <onclick>$VAR[QuitAction]</onclick>
+	  </item>
+	</content>
+        -->
       </control>
     </control>
     <control type="image" description="Sub Left Blade">

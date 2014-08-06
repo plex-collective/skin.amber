@@ -14,7 +14,7 @@
         <label>$INFO[Container(900).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="900" description="Pictures">
-        <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.1.Path))</visible>
+        <!--visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),photo)</visible>
         <onleft condition="!Skin.HasSetting(VerticalHome)">900</onleft>
         <onleft condition="Skin.HasSetting(VerticalHome)">300</onleft>
@@ -23,6 +23,8 @@
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>RecentlyAdded_Addons</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
+	<!--
         <content>
           <item id="1" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestPhoto.1.Path))</visible>
@@ -130,6 +132,7 @@
 
           </item>
         </content>
+        -->
 		<!--<content>
           <item id="1" description="Photos">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.1.Path))</visible>
@@ -160,7 +163,7 @@
         <label>$INFO[Container(901).ListItem.Label][COLOR=White]$INFO[Container(901).ListItem.Label2][/COLOR]</label>
       </control>
       <control type="fixedlist" id="901" description="Queue">
-        <visible>!IsEmpty(Window.Property(Plexbmc.Queue.1.Path))</visible>
+        <!--visible>!IsEmpty(Window.Property(Plexbmc.Queue.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Label, $LOCALIZE[31010])</visible>
         <onleft condition="!Skin.HasSetting(VerticalHome)">900</onleft>
         <onleft condition="Skin.HasSetting(VerticalHome)">300</onleft>
@@ -168,6 +171,8 @@
         <ondown>300</ondown>
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
+	<!--
         <include>RecentlyAdded_Addons</include>
         <content>
           <item id="1" description="Queue">
@@ -276,6 +281,7 @@
             <onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.Queue.15.Path)])</onclick>
           </item>
         </content>
+        -->
 	  </control>
 	  <control type="label" description="Header">
         <visible>Control.IsVisible(311)</visible>
@@ -290,7 +296,7 @@
       </control>
 
       <control type="fixedlist" id="311" description="Movies PLEXBMC">
-        <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestMovie.1.Path))</visible>
+        <!--visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestMovie.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),movie)</visible>
         <onright>311</onright>
         <onup>300</onup>
@@ -300,6 +306,8 @@
         <ondown condition="!Control.IsVisible(312)">300</ondown>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>RecentlyAdded_Posters</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
+	<!--
         <content>
           <item id="1" description="Movies">
             <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestMovie.1.Path))</visible>
@@ -844,6 +852,7 @@
             <onclick>PlayMedia($ESCINFO[Window(Home).Property(Plexbmc.LatestMovie.60.Path)])</onclick>
           </item>
         </content>
+      -->
       </control>
       <control type="label" description="Header">
         <visible>Control.IsVisible(312)</visible>
@@ -876,8 +885,11 @@
         <content target="video">addons://plugin.video.plexbmc/default/jason_test</content>
         <content>plugin://plugin.video.plexbmc?ondeck=jason_test</content>
         <content target="VideoLibrary">plugin://plugin.video.plexbmc?ondeck=jason_test</content>
-        -->
         <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
+        <content>plugin://plugin.video.plexbmc?content=recentlyAdded&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
+	<content>plugin://plugin.video.plexbmc?content=recentlyAdded&section=$INFO[Container(300).ListItem(0).Property(Plex)]</content>
+        -->
+	<content>plugin://plugin.video.plexbmc?content=ondeck&section=$INFO[Container(300).ListItem(0).Property(DeckOnDeck)]</content>
         <!--content>
           <item id="1" description="Movies">
             <visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckMovie.1.Path))</visible>
@@ -1293,7 +1305,7 @@
         <label>$INFO[Container(511).ListItem.Property(ShelfLabel)]</label>
       </control>
       <control type="fixedlist" id="511" description="TOP Shortcuts">
-        <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestAlbum.1.Title))</visible>
+        <!--visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestAlbum.1.Title))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),artist)</visible>
         <onleft condition="!Skin.HasSetting(VerticalHome)">511</onleft>
         <onleft condition="Skin.HasSetting(VerticalHome)">300</onleft>
@@ -1301,6 +1313,8 @@
         <ondown>300</ondown>
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
+	<!--
         <include>RecentlyAdded_Albums</include>
         <content>
           <item id="1" description="Music">
@@ -1404,6 +1418,7 @@
             <property name="ItemType">$LOCALIZE[31961]</property>
           </item>
         </content>
+        -->
       </control>
       <control type="label" description="Header">
         <visible>Control.IsVisible(212)</visible>
@@ -1511,7 +1526,7 @@
         <label>$INFO[Container(411).ListItem.Label2,,[COLOR=Orange]  •  [/COLOR]]$INFO[Container(411).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="411" description="TV Shows PleXBMC">
-        <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestEpisode.1.Path))</visible>
+        <!--visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestEpisode.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),show)</visible>
         <onright>411</onright>
         <onup>300</onup>
@@ -1521,6 +1536,8 @@
         <onleft condition="!Skin.HasSetting(VerticalHome)">411</onleft>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>RecentlyAdded_Episodes</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
+        <!--
         <content>
           <item id="1" description="Episodes1">
             <visible>!IsEmpty(Window(Home).Property(Plexbmc.LatestEpisode.1.Path))</visible>
@@ -2099,6 +2116,7 @@
             <onclick>$INFO[Window(Home).Property(Plexbmc.LatestEpisode.60.Path)])</onclick>
           </item>
         </content>
+        -->
       </control>
       <control type="label" description="Header">
         <visible>Control.IsVisible(413)</visible>
@@ -2112,7 +2130,7 @@
         <label>$INFO[Container(413).ListItem.Label2,,[COLOR=Orange]  •  [/COLOR]]$INFO[Container(413).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="413" description="OnDeck TV Shows PleXBMC">
-        <visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckEpisode.1.Path))</visible>
+        <!--visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckEpisode.1.Path))</visible-->
         <visible>StringCompare(Container(300).ListItem.Property(type),show)</visible>
         <onright>413</onright>
         <onup condition="Control.IsVisible(411)">411</onup>
@@ -2122,6 +2140,8 @@
         <onleft condition="!Skin.HasSetting(VerticalHome)">413</onleft>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>Recommended_Episodes</include>
+	<content>plugin://plugin.video.plexbmc?content=ondeck&section=$INFO[Container(300).ListItem(0).Property(DeckOnDeck)]</content>
+	<!--
         <content>
           <item id="1" description="Episodes1">
             <visible>!IsEmpty(Window(Home).Property(Plexbmc.OnDeckEpisode.1.Path))</visible>
@@ -2574,6 +2594,7 @@
             <onclick>$INFO[Window(Home).Property(Plexbmc.OnDeckEpisode.50.Path)])</onclick>
           </item>
         </content>
+        -->
       </control>
     </control>
   </include>

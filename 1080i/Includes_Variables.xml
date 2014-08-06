@@ -177,5 +177,8 @@
     <value condition="!IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
     <value condition="!IsEmpty(Skin.String(Default.Background))">$INFO[Skin.String(Default.Background)]</value>
     <value>special://skin/backgrounds/default/</value>
-  </variable>  
+  </variable>
+  <variable name="onDeckTest">
+    <value>$INFO[Container(300).ListItem.Label]</value>
+  </variable>
 </includes>

@@ -808,7 +808,7 @@
             <font>MainMenuVerticalFO</font>
           </control>
         </focusedlayout>
-        <content>plugin://plugin.video.plexbmc?content=sections</content>
+        <content>plugin://plugin.video.plexbmc?content=sections&static=special://skin/1080i/Static.xml&ids=2</content>
         <!--
         <onclick>ActivateWindow(VideoLibrary,plugin://plugin.video.plexbmc/?url=http://10.0.0.10:32400/library/sections/5,return)</onclick>
         <content>

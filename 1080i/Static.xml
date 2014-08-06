@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<static>
+    <content id="1" description="Static items for home menu">
+        <item id="10" description="Settings">
+            <visible>!Skin.HasSetting(QuitMenu_Show_Settings)</visible>
+            <label>$LOCALIZE[5]</label>
+            <thumb fallback="special://skin/backgrounds/Settings.jpg">$INFO[Skin.String(Settings.Background)]</thumb>
+            <onclick>ActivateWindow(Settings)</onclick>
+        </item>
+        <item id="11" description="Quit">
+            <visible>!Skin.HasSetting(Quit.Hide)</visible>
+            <label fallback="13009">$VAR[QuitLabel2]</label>
+            <thumb fallback="special://skin/backgrounds/Quit.jpg">$INFO[Skin.String(Quit.Background)]</thumb>
+            <onclick>$VAR[QuitAction]</onclick>
+        </item>
+    </content>
+
+    <content id="2" description="Static items for home menu">
+        <item id="10" description="Settings">
+            <visible>!Skin.HasSetting(QuitMenu_Show_Settings)</visible>
+            <label>$LOCALIZE[5]</label>
+            <thumb fallback="special://skin/backgrounds/Settings.jpg">$INFO[Skin.String(Settings.Background)]</thumb>
+            <onclick>ActivateWindow(Settings)</onclick>
+        </item>
+        <item id="11" description="Quit">
+            <visible>!Skin.HasSetting(Quit.Hide)</visible>
+            <label fallback="13009">$VAR[QuitLabel2]</label>
+            <thumb fallback="special://skin/backgrounds/Quit.jpg">$INFO[Skin.String(Quit.Background)]</thumb>
+            <onclick>$VAR[QuitAction]</onclick>
+        </item>
+    </content>
+</static>

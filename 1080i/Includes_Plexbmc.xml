@@ -171,9 +171,9 @@
         <ondown>300</ondown>
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
+        <include>RecentlyAdded_Addons</include>
 	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
 	<!--
-        <include>RecentlyAdded_Addons</include>
         <content>
           <item id="1" description="Queue">
             <visible>!IsEmpty(Window.Property(Plexbmc.Queue.1.Path))</visible>
@@ -876,19 +876,6 @@
         <onleft condition="!Skin.HasSetting(VerticalHome)">312</onleft>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>Recommended_Posters</include>
-        <!--
-        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
-        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Property(partialpath)]&reload=true</content>
-        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
-        <content>plugin://plugin.video.plexbmc/library/jason_test</content>
-        <content>plugin://plugin.video.plexbmc/default/jason_test</content>
-        <content target="video">addons://plugin.video.plexbmc/default/jason_test</content>
-        <content>plugin://plugin.video.plexbmc?ondeck=jason_test</content>
-        <content target="VideoLibrary">plugin://plugin.video.plexbmc?ondeck=jason_test</content>
-        <content>plugin://service.library.data.provider?type=recentmovies&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
-        <content>plugin://plugin.video.plexbmc?content=recentlyAdded&section=$INFO[Container(300).ListItem.Label]&reload=true</content>
-	<content>plugin://plugin.video.plexbmc?content=recentlyAdded&section=$INFO[Container(300).ListItem(0).Property(Plex)]</content>
-        -->
 	<content>plugin://plugin.video.plexbmc?content=ondeck&section=$INFO[Container(300).ListItem(0).Property(DeckOnDeck)]</content>
         <!--content>
           <item id="1" description="Movies">
@@ -1313,9 +1300,9 @@
         <ondown>300</ondown>
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
+        <include>RecentlyAdded_Albums</include>
 	<content>plugin://plugin.video.plexbmc?content=recentlyadded&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyAdded)]</content>
 	<!--
-        <include>RecentlyAdded_Albums</include>
         <content>
           <item id="1" description="Music">
             <visible>!IsEmpty(Window(Home).Property(plexbmc.LatestAlbum.1.Title))</visible>
@@ -1432,7 +1419,7 @@
         <label>$INFO[Container(212).ListItem.Label]</label>
       </control>
       <control type="fixedlist" id="212" description="Channels">
-        <visible>!IsEmpty(Window.Property(Plexbmc.LatestChannel.1.Path))</visible>
+        <!--visible>!IsEmpty(Window.Property(Plexbmc.LatestChannel.1.Path))</visible-->
         <visible>Container(300).HasFocus(50)</visible>
         <onleft condition="!Skin.HasSetting(VerticalHome)">212</onleft>
         <onleft condition="Skin.HasSetting(VerticalHome)">300</onleft>
@@ -1441,6 +1428,8 @@
         <onback>300</onback>
         <include condition="!Skin.HasSetting(VerticalHome)">Horizontal_Shelf_Commons</include>
         <include>RecentlyAdded_Addons</include>
+	<content>plugin://plugin.video.plexbmc?content=recentlyviewed&section=$INFO[Container(300).ListItem(0).Property(DeckRecentlyViewed)]</content>
+	<!--
         <content>
           <item id="1" description="Music">
             <visible>!IsEmpty(Window.Property(Plexbmc.LatestChannel.1.Path))</visible>
@@ -1513,6 +1502,7 @@
             <property name="ItemType">Channels</property>
           </item>
         </content>
+        -->
       </control>
       <control type="label" description="Header">
         <visible>Control.IsVisible(411)</visible>
